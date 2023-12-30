@@ -7,3 +7,51 @@ body
     margin: 0;
     background-color: #f4f4f4;
 }
+
+.container
+{
+    text-align: center;
+}
+
+.login-form
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0 0 10px(0, 0, 0, 0.1);
+}
+
+h1
+{
+    margin: 20px;
+}
+
+label
+{
+    display: flex;
+}
+
+input
+{
+    display: block;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button
+{
+    background-color: #b1b4b1;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+button:hover
+{
+    background-color: #474747;
+    color: #fffefe;
+  
+}
+label
+{
+    margin-bottom: 5px;
+}
