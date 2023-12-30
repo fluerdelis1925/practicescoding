@@ -43,6 +43,7 @@ button
     background-color: #b1b4b1;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 10px;
     
 }
 button:hover
