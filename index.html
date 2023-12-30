@@ -6,15 +6,24 @@
     <meta name ="keyword" content="Simple Login Page">
     <meta name ="author" content="Da Sup">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
      <div class="container">
     <form action="POST">
-    <h1>Welcome</h1>
+    <h1 style="text-align: center;">Welcome</h1>
     <label for="username">username</label>
-    <input type="text" id="username" name="username" required>
+    <input type="text" id="username" name="username" required autofocus>
+
+    <label for="password">password</label>
+    <input type="password" name="password" id="password">
+
+    <button type="submit">Login </button>
+
+
+
     </form>
      
      </div>
